@@ -1,4 +1,5 @@
 # Makine-Ogrenmesi
+![makine öğrenimi1](https://github.com/Tesnim0/Makine-Ogrenmesi/assets/130792169/5b14535c-d5bb-4d6f-8a7a-1d38025cf841)
 Makine öğrenimi, bilgisayar algoritmalarının deneyim yoluyla veri öğrenmesine ve otonom davranış sergilemesine olanak tanır. Bu algoritma türü, birçok alanda kullanılmaktadır ve gelecekte daha da yaygınlaşması beklenmektedir. Bazı örnekler şunlardır:
 
 Otomotiv Sektörü: Otonom araçlar, makine öğrenimi algoritmaları sayesinde çevrelerini algılayabilir, trafik durumunu tahmin edebilir ve sürüş kararlarını alabilirler.
