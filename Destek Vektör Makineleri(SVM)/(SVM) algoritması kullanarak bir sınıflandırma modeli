@@ -1,0 +1,28 @@
+İşte Python'da Destek Vektör Makineleri (SVM) algoritması kullanarak bir sınıflandırma modeli oluşturmak için basit bir örnek:
+
+# Gerekli kütüphaneleri içe aktarın
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score
+
+# Iris veri setini yükleyin
+iris = load_iris()
+X = iris.data  # özellikler
+y = iris.target  # hedef değişken
+
+# Veri setini eğitim ve test kümelerine ayırın
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# SVM modelini oluşturun
+clf = SVC()
+
+# Modeli eğitin
+clf.fit(X_train, y_train)
+
+# Test verileri üzerinde tahmin yapın
+y_pred = clf.predict(X_test)
+
+# Doğruluk skorunu hesaplayın
+accuracy = accuracy_score(y_test, y_pred)
+print("Doğruluk:", accuracy)
